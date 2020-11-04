@@ -20,5 +20,6 @@ class String
   end
 end
 
-hello = String.new
+hello = "hello"
 hello.count_sentences
+
