@@ -17,7 +17,7 @@ class String
     binding.pry
     array = []
     self.split(/(\.|\?|!){1,}/).each do |string|
-      if string
+      if string.search((\.|\?|!){1,}) == false
 
 
   end
