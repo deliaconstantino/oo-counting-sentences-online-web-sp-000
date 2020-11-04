@@ -16,13 +16,10 @@ class String
   def count_sentences
     array = []
     self.split(/(\.|\?|!){1,}/).each do |string|
-      unless string.include?("?") || string.include?(".") || string.include?("!") 
+      unless string.include?("?") || string.include?(".") || string.include?("!")
         array << string
       end
     end
     array.count
   end
 end
-
-hello = "hello"
-hello.count_sentences
