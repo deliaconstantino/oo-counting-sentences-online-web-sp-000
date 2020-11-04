@@ -17,8 +17,11 @@ class String
     binding.pry
     array = []
     self.split(/(\.|\?|!){1,}/).each do |string|
-      if string.search((\.|\?|!){1,}) == false
-
+      if string.include?("?") || string.include?(".") || string.include?("!") == false
+        array << string
+      end
+    end
+    array.count
 
   end
 end
