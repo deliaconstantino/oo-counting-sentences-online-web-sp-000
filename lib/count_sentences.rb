@@ -15,8 +15,11 @@ class String
 
   def count_sentences
     binding.pry
-    self.split(/(\.|\?|!){1,}/)
-    binding.pry
+    array = []
+    self.split(/(\.|\?|!){1,}/).each do |string|
+      if string
+
+
   end
 end
 
