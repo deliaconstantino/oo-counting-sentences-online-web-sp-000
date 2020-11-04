@@ -19,3 +19,6 @@ class String
     binding.pry
   end
 end
+
+hello = String.new
+hello.count_sentences
