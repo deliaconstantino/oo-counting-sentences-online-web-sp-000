@@ -22,4 +22,3 @@ end
 
 hello = "hello"
 hello.count_sentences
-
